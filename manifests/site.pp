@@ -76,6 +76,9 @@ node default {
   include phantomjs::1_9_0 
   phantomjs::global { '1.9.0': }
 
+  #gitx
+  include gitx
+
   #heroku
   include heroku
 
